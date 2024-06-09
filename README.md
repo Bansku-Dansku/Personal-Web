@@ -1,5 +1,4 @@
 # BanskuDansku.NET Website
-	---
 > ## What is this website for?
 > This website is for my personal website.
 > ## Can I use this?
@@ -8,5 +7,4 @@
 > I will send you a nice letter :)
 > ## Can I see this somewhere?
 > Here: [banskudansku.net](https://banskudansku.net/)
-	---
 © BanskuDansku.NET 2010 - 2024
