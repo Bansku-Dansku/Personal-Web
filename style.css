@@ -1,0 +1,136 @@
+/*Basic stuff*/
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    color: white; 
+    background-image: linear-gradient(45deg, #00215e, #0011ff, #017eaf);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust the column width as needed */
+    grid-auto-rows: auto;
+    grid-gap: 30px;
+    padding: 10px;
+    max-width: 1800px;
+}
+
+.projects > div {
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 8px;
+    background-image: linear-gradient(45deg, #003496, #001764, #1100f8);
+    padding: 10px 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.1), /* First shadow */
+        0 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+.projects > div:hover {
+    transform: translateY(-20px) scale(1.1);
+}
+
+.project-link {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color:rgb(197, 197, 197)
+}
+
+.project-link:hover {
+    color:rgb(91, 101, 238)
+}
+
+/*Social media things*/
+
+.social {
+    padding: 28px 32px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.1), /* First shadow */
+        0 16px 32px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(45deg, #003496, #001764, #1100f8);
+}
+
+.social:hover {
+    opacity: 0.7;
+}
+
+.twitter {
+    color: black;
+}
+
+.linkedin {
+    color: #0A66C2;
+}
+  
+.youtube {
+    color: #FF0000;
+}
+
+.discord {
+    color: #5865F2;
+}
+
+/*"Containers" Its just stuff for the divs*/
+
+.top {
+    text-align: center;
+    background-image: url('assets/img/home-background.jpg');
+    background-size: cover; 
+    font-size: 50px;
+}
+
+.center1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.center2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+footer {
+    background-color: #0e0d0d;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+/*The screen stuff whicc I suck at*/
+
+/* Media query for screens smaller than 768px (typically mobile devices) */
+@media screen and (max-width: 767px) {
+    .top {
+        padding: 10vh 0; /* Set padding to 30% of the viewport height */
+    }
+}
+
+/* Media query for screens between 768px and 1024px (typically tablets) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .top {
+        padding: 20vh 0; /* Set padding to 40% of the viewport height */
+    }
+}
+
+/* Media query for screens larger than 1024px (typically desktops) */
+@media screen and (min-width: 1025px) {
+    .top {
+        padding: 37vh 0; /* Set padding to 50% of the viewport height */
+    }
+}
