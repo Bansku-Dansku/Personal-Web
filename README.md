@@ -8,4 +8,14 @@ I will send you a nice letter :)
 ## Can I see this somewhere?
 Here: [banskudansku.net](https://banskudansku.net/)
 ---
+
+## Developing
+
+Use `php -S localhost:8000`
+
+## For building
+
+First `npm i`
+Then `npx @tailwindcss/cli -i ./assets/scripts/style.css -o ./assets/scripts/min.css --watch`
+
 © BanskuDansku.NET 2010 - 2024
