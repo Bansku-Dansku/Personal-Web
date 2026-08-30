@@ -340,12 +340,6 @@
   .bg-violet-600 {
     background-color: var(--color-violet-600);
   }
-  .bg-\[url\(\'\.\.\/assets\/img\/blog\.gif\'\)\] {
-    background-image: url('../assets/img/blog.gif');
-  }
-  .bg-\[url\(\'\.\/assets\/img\/home-cover\.jpeg\'\)\] {
-    background-image: url('./assets/img/home-cover.jpeg');
-  }
   .bg-cover {
     background-size: cover;
   }
