@@ -541,6 +541,20 @@
       max-width: calc(4 / 5 * 100%);
     }
   }
+  @media (width >= 80rem) {
+    .xl\:text-2xl {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+    .xl\:text-6xl {
+      font-size: var(--text-6xl);
+      line-height: var(--tw-leading, var(--text-6xl--line-height));
+    }
+    .xl\:text-xl {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
   @media (width >= 96rem) {
     .\32 xl\:max-w-2\/3 {
       max-width: calc(2 / 3 * 100%);

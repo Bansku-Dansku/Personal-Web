@@ -18,8 +18,8 @@
     <link href="/assets/scripts/style.css" rel="stylesheet">
     <link href="/assets/scripts/min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <!-- FOR DEVELOPING-->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FOR DEVELOPING
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body class="bg-slate-950 text-white mx-4 lg:max-w-4/5 2xl:max-w-2/3 lg:mx-auto my-4">
