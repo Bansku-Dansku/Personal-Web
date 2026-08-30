@@ -1,0 +1,5 @@
+<?php
+
+$webhook_url = "";
+
+?>
