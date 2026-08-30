@@ -9,17 +9,17 @@
       <section id="about" class="mt-2 h-full bg-slate-900 p-3 rounded-lg border border-slate-800 flex flex-col md:flex-row justify-between gap-4">
         <div class="md:w-2/3">
           <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>About Me</strong></h1>
-          <p class="mb-2">
+          <p class="mb-2 xl:text-xl">
             I am Daniel from Finland and I mostly like tech(coding, sysadmin work, live audio, lights, video). On my freetime, I do these things as a hobby.
           </p>
-          <p class="mb-2">
+          <p class="mb-2 xl:text-xl">
             I have been interested in programming for a while. I started my journey to programming in 2020 with a on the spot course about coding with Scratch, Godot, Replit, etc. There I made my first websites, python programs and Scratch games.
              After programming for six years, I have delivered 20+ websites, 6 Discord bots and 3 random apps.
           </p>
-          <p class="mb-2">
+          <p class="mb-2 xl:text-xl">
             In 2024 I started learning about live audio & lights on my school. I soon became the head of technival side of festivals in my school as I mastered the digital console, Yamaha LS9 32 version, and the lighting console, Magic Quick Q10.
           </p>
-          <p>
+          <p class="xl:text-xl">
             After two years of live audio and lights, I discovered streaming/live video. I still continued on live audio & lights but started on filming TV shows and some smaller projects with my friends and colleagues using for example ATEM stuff.
           </p>
         </div>
@@ -31,7 +31,7 @@
           <div class="grid sm:grid-cols-2 grid-row-2 gap-6 text-xl">
             <div class="flex flex-col h-full">
               <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>Axsoter</strong></h1>
-              <p>Axsoter is a server hosting company founded in 2024. When Axsoter started, the primary goal was to deliver free Minecraft servers. As time has moved Axsoter is offering now premium game hosting and web hosting from Finland.
+              <p class="xl:text-2xl">Axsoter is a server hosting company founded in 2024. When Axsoter started, the primary goal was to deliver free Minecraft servers. As time has moved Axsoter is offering now premium game hosting and web hosting from Finland.
                 The main selling point for Axsoter is quality price ratio and the support we offer. 
               </p>
               <div class="mt-auto">
@@ -48,7 +48,7 @@
             <img src="assets/img/etosel.png" alt="Etosel homepage" class="w-full h-full object-cover rounded-lg">
             <div class="flex flex-col h-full">
               <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>Etosel</strong></h1>
-              <p>Etosel is an online workspace for schools and companies to easify their complex systems to one place in order for users to use them easily. Etosel allows users to log in to organizations sites and systems straight from one page
+              <p class="xl:text-2xl">Etosel is an online workspace for schools and companies to easify their complex systems to one place in order for users to use them easily. Etosel allows users to log in to organizations sites and systems straight from one page
                 without any hassle.
               </p>
               <div class="mt-auto">
@@ -62,7 +62,7 @@
           <div class="grid sm:grid-cols-2 grid-row-2 gap-6 text-xl">
             <div class="flex flex-col h-full">
               <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>Hassy Ry</strong></h1>
-              <p>A funny friend group that does various things with computers and other things (see demogroup on wikipedia).
+              <p class="xl:text-2xl">A funny friend group that does various things with computers and other things (see demogroup on wikipedia).
                 [We/Hassy Team™/They] [have/has] done projects such as: An infoscreen for Assembly, some weirdass short films, a spinning rat orchestra, and various other things. 
               </p>
               <div class="mt-auto">
@@ -78,7 +78,7 @@
             <img src="assets/img/dve.png" alt="DVE homepage" class="w-full h-full object-cover rounded-lg">
             <div class="flex flex-col h-full">
               <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>DVE</strong></h1>
-              <p>DVE (Digital Velocity Engineering) was born out of a passion for servers, websites, and audio, lighting, and video production.
+              <p class="xl:text-2xl">DVE (Digital Velocity Engineering) was born out of a passion for servers, websites, and audio, lighting, and video production.
                 Although DVE operates as an official 4H company under a business license, they deliver solutions that challenge traditional services in terms of expertise and price.
               </p>
               <div class="mt-auto">
@@ -93,9 +93,9 @@
       <section id="contact" class="mt-2 h-full bg-slate-900 p-3 rounded-lg border border-slate-800">
         <div class="grid sm:grid-cols-2 grid-row-2 gap-6 text-xl">
           <div>
-            <h1 class="text-4xl mb-2 underline decoration-3 text-violet-600"><strong>Contact</strong></h1>
-            <p>Here are my contact info:</p>
-            <ul>
+            <h1 class="text-4xl xl:text-6xl mb-2 underline decoration-3 text-violet-600"><strong>Contact</strong></h1>
+            <p class="xl:text-2xl">Here are my contact info:</p>
+            <ul class="xl:text-2xl">
               <li><i class="fa-regular fa-envelope mr-2"></i><a href="mailto:me@banskudansku.net" class="underline decoration-2 hover:text-violet-600 ease-out duration-400">me@banskudansku.net</a> - For personal inquiries</li>
               <li><i class="fa-regular fa-envelope mr-2"></i><a href="mailto:daniel@dve.fi" class="underline decoration-2 hover:text-violet-600 ease-out duration-400">daniel@dve.fi</a> - For business inquiries</li>
               <li><i class="fab fa-discord mr-2"></i><a href="https://discord.com/users/799296244638941264" class="underline decoration-2 hover:text-violet-600 ease-out duration-400">@banskudansku</a> - For social inquiries</li>
